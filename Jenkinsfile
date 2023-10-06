@@ -4,7 +4,7 @@ pipeline {
         stage('Récupération du code source') {
             steps {
                 // Cette étape récupère le code depuis le référentiel Git
-                git 'https://votre-url-git'
+                git 'https://github.com/OmarKhabthani/test.git'
             }
         }
         stage('Affichage de la date système') {
